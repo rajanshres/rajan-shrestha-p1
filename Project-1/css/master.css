@@ -1,0 +1,52 @@
+html {
+    margin: auto 100px;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto 30px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 1.7rem;
+}
+
+#menu {
+    display: inline;
+    align-items: stretch;
+    text-decoration-color: blueviolet;
+}
+
+footer p {
+    line-height: 10.5pt;
+}
+
+#author {
+    font-size: large;
+}
+
+#credits {
+    font-style: italic;
+    font-style: oblique;
+    font-size: 0.75em;
+    margin-bottom: 20px;
+}
+
+#header-image,
+#python,
+#GitLens {
+    margin-top: 5rem;
+    height: 400px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p1-name,
+#p2-name,
+#p3-name {
+    text-align: center;
+}
