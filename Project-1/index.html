@@ -10,111 +10,100 @@
     </title>
     <link rel="stylesheet" href="css/master.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1 id="top-of-page">Gogo Petroleum</h1>
-        <ul id="menu">
-            <li id="home">Home</li>
-            <li id="services">Services</li>
-            <li id="gas">Gas prices</li>
-            <li id="lic">Licensing</li>
-            <li id="loc">Locations</li>
-            <li id="about">About us</li>
-        </ul>
-        <table id="complex-table">
-            <thead>
-                <tr>
-                    <th scope="col" colspan="4">Fuel Prices</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Regular</th>
-                    <td>$</td>
-                    <td>Alex</td>
-                </tr>
-                <tr>
-                    <th>James</th>
-                    <td>3rd</td>
-                    <td>Samantha</td>
-                </tr>
-                <tr>
-                    <th colspan="3">Break</th>
-                </tr>
-                <tr>
-                    <th rowspan="2">Chloe</th>
-                    <td>4th</td>
-                    <td rowspan="2">Declan</td>
-                </tr>
-                <tr>
-                    <td>5th</td>
-                </tr>
-            </tbody>
-        <div id="credits">
-            <div id="author">
-                
-            </div>
-            <div id="date"></div>
-        </div>
-        <img id="header-image" src="images/Live-Server.png" alt="VS Code" />
-    </header>
     <main>
-        <div class="package-container">
-            <header>
-                <h2 id="p1-name"></h2>
-            </header>
+        <header>
+            <h1 id="top-of-page">Gogo Petroleum</h1>
+            <img id="header-image" src="images/Himalayan image3.jpg" alt="Gas station" />
+            <nav id="nav">
+                <ul id="menu">
+                    <li id="home">Home</li>
+                    <li id="services">Services</li>
+                    <li id="gas">Gas prices</li>
+                    <li id="lic">Licensing</li>
+                    <li id="loc">Locations</li>
+                    <li id="about">About us</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <table id="complex-table">
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th colspan="4">Fuel Prices</th>
+                            </tr>
+                        </thead>
+
+                        <tr>
+                            <th>Regular</th>
+                            <th>Mid-grade</th>
+                            <th>Premium</th>
+                            <th>Diesel</th>
+                        </tr>
+                        <tr>
+                            <td>$<span id="reg-price"></span></td>
+                            <td>$<span id="mid-price"></span></td>
+                            <td>$<span id="prem-price"></span></td>
+                            <td>$<span id="dsl-price"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <section>
-                <p id="p1-description"></p>
+                <h2>Our Specialities</h2>
+                <ul class="carwash">
+                    <li>Touchless Car Wash</li>
+                </ul>
+                <h5>Our car wash location in Wauwatosa, WI looks forward to serving you every day. Providing outstanding customer
+                    service with every full service car wash is our commitment to you, the customer.</h5>
+                <h5>Even better, when you purchase 8 gallons of fuel and save 10 receipts of those purchases, you receive a free
+                    express car wash.</h5>
+                <ul class="plate">
+                    <li>WI-DOT license plate renewal</li>
+                </ul>
+                <h5>We are one of the authorized Wisconsin Department of Transportation license plate renewal agents. Now you can
+                    skip the line and stop by in any of our stores to renew your Wisconsin license plate for a minimal fee.</h5>
+                <ul class="hunting">
+                    <li>Hunting and Fishing licensing</li>
+                </ul>
+                <h5>Deer hunting and ice fishing season is around and our store in Johnson Creek, WI proudly provides you the
+                    Hunting and Fishing licensing service with just a minimal fee.</h5>
+                <ul class="gift">
+                    <li>Gift Cards</li>
+                </ul>
+                <h5>We now sell Mobil gift cards of any value starting from $10.00</h5>
+                <h5>Choose from a variety of gift values and reload the cards whenever you want. ExxonMobil Gift Cards are
+                    thoughtful gifts for everyone and every occasion.</h5>
+                <h5>ExxonMobil Gift Cards can be used to purchase fuel, car washes, snacks and other on-the-go items at the pump or
+                    in the store at more than 11,000 ExxonTM- and MobilTM-branded stations nationwide.</h5>
+                <ul class="haul">
+                    <li>U-Haul Franchise</li>
+                </ul>
+                <h5>Now making your move-in and move-out even easier with our one stop solution. We are one of the U-Haul franchises
+                    since 2009.</h5>
             </section>
+
+        </main>
+
+        <div>
             <footer>
-                <p>Author: <span id="p1-author"></span></p>
-                <p>URL: <span id="p1-url"></span></p>
-                <p>Downloads: <span id="p1-downloads"></span></p>
-                <p>Stars: <span id="p1-stars"></span></p>
-                <p>Price: $ <span id="p1-price"></span></p>
+                <a href="#top-of-page">Go to top</a>
+            </footer>
+        </div>
+        <div>
+            <footer>
+                <p>&copy; 2018 Gogo Petroleum LLC. All rights reserved. Privacy | Terms & Conditions.</p>
             </footer>
         </div>
 
-        <div class="package-container">
-            <header>
-                <img id="python" src="images/ConfigureDebugger.gif" alt="Python Debugger" />
-                <h2 id="p2-name"></h2>
-            </header>
-            <section>
-                <p id="p2-description"></p>
-            </section>
-            <footer>
-                <p>Author: <span id="p2-author"></span></p>
-                <p>URL: <span id="p2-url"></span></p>
-                <p>Downloads: <span id="p2-downloads"></span></p>
-                <p>Stars: <span id="p2-stars"></span></p>
-                <p>Price: $ <span id="p2-price"></span></p>
-            </footer>
-        </div>
 
-        <div class="package-container">
-            <header>
-                <img id="GitLens" src="images/settings.png" alt="GitLens">
-                <h2 id="p3-name"></h2>
-            </header>
-            <section>
-                <p id="p3-description"></p>
-            </section>
-            <footer>
-                <p>Author: <span id="p3-author"></span></p>
-                <p>URL: <span id="p3-url"></span></p>
-                <p>Downloads: <span id="p3-downloads"></span></p>
-                <p>Stars: <span id="p3-stars"></span></p>
-                <p>Price: $ <span id="p3-price"></span></p>
-            </footer>
-        </div>
-    </main>
-    <footer>        
-        <a href="#top-of-page">Go to top</a>
-    </footer>
-    <script src="js/scripts.js"></script>
+        <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
